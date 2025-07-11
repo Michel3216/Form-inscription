@@ -1,0 +1,70 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("/projet de page /IMG-20250608-WA0028.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+.div1 {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(225, 225, 225, 0.2);
+ 
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: orange;
+  }
+  50% {
+    border-color: yellow;
+  }
+  75% {
+    border-color: cyan;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.inpu {
+  padding: 12px;
+  border-radius: 2px;
+  width: 250px;
+  animation: borderAnimation 3s linear infinite;
+}
+
+p {
+  font-size: 22px;
+}
+
+span {
+  color: red;
+}
+
+button {
+  background: linear-gradient(360deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
