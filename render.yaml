@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: mon-site-php
+    env: php
+    buildCommand: ""
+    startCommand: ""
+    plan: free
+    region: oregon
+    rootDir: .
